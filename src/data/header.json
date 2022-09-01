@@ -1,0 +1,17 @@
+{
+  "links": [
+    {
+      "text": "About",
+      "href": "#about"
+    },
+    {
+      "text": "Technologies",
+      "href": "#tech"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/kzree",
+      "newTab": true
+    }
+  ]
+}

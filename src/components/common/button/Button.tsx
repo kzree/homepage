@@ -42,7 +42,7 @@ export const Button: ReactComponent<Props> = ({
     [buttonVariants[variant]]: true,
     [buttonSizes[size]]: true,
     [buttonWidths[width]]: true,
-    className: !!className,
+    [`${className}`]: !!className,
   });
   return (
     <button onClick={onClick} className={classes}>

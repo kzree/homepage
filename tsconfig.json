@@ -22,6 +22,7 @@
       "@utils/*": ["utils/*"],
       "@enum/*": ["utils/enum/*"],
       "@components/*": ["components/*"],
+      "@data/*": ["data/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
