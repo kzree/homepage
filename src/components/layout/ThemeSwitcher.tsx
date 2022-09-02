@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
-import { Button } from '@components/common/button';
 
-export const ThemeSwitcher = () => {
+import { Button } from '@components/common/button';
+import { ReactComponent } from '@typings/common/React';
+
+export const ThemeSwitcher: ReactComponent = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 

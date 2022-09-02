@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/pages/**/*.tsx', './src/components/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        padding: '1rem',
+      },
+    },
   },
   plugins: [require('daisyui')],
   daisyui: {
