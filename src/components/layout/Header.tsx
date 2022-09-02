@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import { ThemeSwitcher } from '@components/layout/ThemeSwitcher';
 
-import { ReactComponent } from '@typings/common/React';
+import { ReactComponent } from '@typings/common/react';
 
 import headerData from '@data/header.json';
 

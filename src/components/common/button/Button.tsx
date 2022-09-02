@@ -1,4 +1,4 @@
-import { ClassNamesProp, ReactComponent } from '@typings/common/React';
+import { ClassNamesProp, ReactComponent } from '@typings/common/react';
 import { ThemeColor } from '@enum/ThemeColor';
 import clsx from 'clsx';
 
