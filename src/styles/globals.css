@@ -9,3 +9,9 @@
     --color-black: 14 17 17;
     --color-white: 255 255 255;
 }
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
