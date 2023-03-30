@@ -1,0 +1,16 @@
+import Link from 'next/link';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const Header = () => {
+  return (
+    <header className={`h-16 w-full bg-primary ${inter.className}`}>
+      <nav className="container mx-auto h-full flex items-center">
+        <Link className="text-xl font-bold text-white" href="/">
+          Erkki Sula
+        </Link>
+      </nav>
+    </header>
+  );
+};
