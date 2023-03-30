@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import { Footer, Header } from '@/components/layout';
-import { Hero } from '@/components/homepage';
+import { Hero, Skills } from '@/components/homepage';
 import { PageHead } from '@/components';
 import { seo } from '@/data/homepage';
 
@@ -14,6 +14,7 @@ export default function Home() {
         <Header />
         <main className={inter.className}>
           <Hero />
+          <Skills />
         </main>
         <Footer />
       </div>
