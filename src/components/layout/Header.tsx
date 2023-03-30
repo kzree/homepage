@@ -7,7 +7,10 @@ export const Header = () => {
   return (
     <header className={`h-16 w-full bg-primary ${inter.className}`}>
       <nav className="container mx-auto h-full flex items-center">
-        <Link className="text-xl font-bold text-white" href="/">
+        <Link
+          className="text-xl font-bold text-white hover:text-secondary transition-all duration-300 ease-in-out"
+          href="/"
+        >
           Erkki Sula
         </Link>
       </nav>
