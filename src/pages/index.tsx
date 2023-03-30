@@ -12,7 +12,7 @@ export default function Home() {
       <PageHead data={seo} />
       <div className="grid grid-rows-[auto_1fr_auto] grid-cols-[minmax(0,1fr)] h-full min-h-screen antialiased">
         <Header />
-        <main className={inter.className}>
+        <main className={`bg-gray ${inter.className}`}>
           <Hero />
           <Skills />
         </main>

@@ -8,6 +8,7 @@ module.exports = {
       purple: 'rgb(var(--color-purple) / <alpha-value>)',
       black: 'rgb(var(--color-black) / <alpha-value>)',
       white: 'rgb(var(--color-white) / <alpha-value>)',
+      gray: 'rgb(var(--color-gray) / <alpha-value>)',
     },
     screens: {
       sm: '36rem',
