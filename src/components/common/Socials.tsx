@@ -3,9 +3,10 @@ import Link from 'next/link';
 
 interface Props {
   className?: string;
+  iconClassName?: string;
 }
 
-export const Socials = ({ className = '' }: Props) => {
+export const Socials = ({ className = '', iconClassName }: Props) => {
   return (
     <div className={`flex gap-2 ${className}`}>
       {socials.map(({ link, icon: Icon, name }) => (

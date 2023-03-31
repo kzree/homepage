@@ -19,12 +19,12 @@ export const majorSkills = {
       icon: IconBrandGolang,
       title: 'GoLang',
       description:
-        'My current favourite programming language and goto tool for building backend services and commandline tools. I have been using it since 2021 now and been loving it ever since.',
+        'My current favourite programming language and go to tool for building backend services and commandline tools. I have been using it since 2021 now and been loving it ever since.',
     },
     {
       icon: IconSql,
       title: 'PostgreSQL',
-      description: 'Currently my goto choice for an easy to use but powerful database engine.',
+      description: 'Currently my go to choice for an easy to use but powerful database engine.',
     },
     {
       icon: IconBrandTypescript,
