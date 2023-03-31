@@ -13,7 +13,14 @@ export const Header = () => {
         >
           Erkki Sula
         </Link>
-        <div className="hidden md:block space-y-4">
+        <div className="hidden md:block space-x-4">
+          <Link
+            scroll={false}
+            className="text-white hover:text-secondary transition-all duration-300 ease-in-out"
+            href="/#about"
+          >
+            About
+          </Link>
           <Link
             scroll={false}
             className="text-white hover:text-secondary transition-all duration-300 ease-in-out"

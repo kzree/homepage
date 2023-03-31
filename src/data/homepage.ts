@@ -30,7 +30,7 @@ export const majorSkills = {
       icon: IconBrandTypescript,
       title: 'TypeScript',
       description:
-        'After learning JavaScript, I quickly moved over to TypeScript. My main draws to TypeScript was its type system as I am not a fan of languages that are not strongly typed.',
+        'After learning JavaScript, I quickly moved over to TypeScript. My main draw to TypeScript was its type system as I am not a fan of languages that are not strongly typed. I have been using it in both frontend and backend projects.',
     },
     {
       icon: IconBrandReact,
