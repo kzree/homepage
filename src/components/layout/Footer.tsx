@@ -3,7 +3,7 @@ import { Socials } from '@/components/common';
 
 export const Footer = () => {
   return (
-    <footer className="bg-white">
+    <footer className="bg-gray">
       <div className="container mx-auto border-t border-primary py-8">
         <div className="flex justify-between text-black">
           <p className="font-bold">{footer.copyright}</p>

@@ -8,7 +8,7 @@
     --color-purple: 61 21 95;
     --color-black: var(--color-primary);
     --color-white: 255 255 255;
-    --color-gray: 249, 249, 249;
+    --color-gray: 249 249 249;
 }
 
 @layer base {
