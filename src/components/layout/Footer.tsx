@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="container mx-auto border-t border-secondary py-8">
         <div className="flex justify-between text-gray-light">
           <p className="font-bold text-gray-light">{footer.copyright}</p>
-          <Socials className=" text-gray-light" iconClassName="hover:opacity-75" />
+          <Socials className="text-gray-light" iconClassName="hover:text-secondary" />
         </div>
       </div>
     </footer>
