@@ -1,4 +1,5 @@
 import { otherSkills } from '@/data/homepage';
+import { Card } from '@/components/common';
 
 export const OtherSkills = () => {
   const { title, columns } = otherSkills;
@@ -10,10 +11,7 @@ export const OtherSkills = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {columns.map(({ title, items }, idx) => (
-          <div
-            className="rounded-xl shadow-xl duration-300 ease-in-out p-5 bg-gray-dark"
-            key={`tech-${idx}`}
-          >
+          <Card key={`tech-${idx}`}>
             <h3 className="text-xl font-bold mb-2 border-b border-secondary inline-block">
               {title}
             </h3>
@@ -24,7 +22,7 @@ export const OtherSkills = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </Card>
         ))}
       </div>
     </section>
