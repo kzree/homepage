@@ -4,10 +4,10 @@ import { Socials } from '@/components/common';
 export const Footer = () => {
   return (
     <footer className="bg-gray">
-      <div className="container mx-auto border-t border-primary py-8">
-        <div className="flex justify-between text-black">
-          <p className="font-bold">{footer.copyright}</p>
-          <Socials className="text-black" iconClassName="hover:opacity-75" />
+      <div className="container mx-auto border-t border-secondary py-8">
+        <div className="flex justify-between text-gray-light">
+          <p className="font-bold text-gray-light">{footer.copyright}</p>
+          <Socials className=" text-gray-light" iconClassName="hover:opacity-75" />
         </div>
       </div>
     </footer>

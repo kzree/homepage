@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <PageHead data={seo} />
-      <div className="grid grid-rows-[auto_1fr_auto] grid-cols-[minmax(0,1fr)] h-full min-h-screen antialiased">
+      <div className="grid grid-rows-[auto_1fr_auto] grid-cols-[minmax(0,1fr)] h-full min-h-screen antialiased text-gray-light">
         <Header />
         <main className={`bg-gray ${inter.className}`}>
           <Hero />

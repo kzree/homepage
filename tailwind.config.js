@@ -9,6 +9,8 @@ module.exports = {
       black: 'rgb(var(--color-black) / <alpha-value>)',
       white: 'rgb(var(--color-white) / <alpha-value>)',
       gray: 'rgb(var(--color-gray) / <alpha-value>)',
+      'gray-dark': 'rgb(var(--color-gray-dark) / <alpha-value>)',
+      'gray-light': 'rgb(var(--color-gray-light) / <alpha-value>)',
     },
     screens: {
       sm: '36rem',

@@ -8,7 +8,7 @@ export const Header = () => {
     <header className={`h-16 w-full bg-primary ${inter.className}`}>
       <nav className="container mx-auto h-full flex items-center justify-between">
         <Link
-          className="text-xl font-bold text-white hover:text-secondary transition-all duration-300 ease-in-out"
+          className="text-xl font-bold text-gray-light hover:text-secondary transition-all duration-300 ease-in-out"
           href="/"
         >
           Erkki Sula
@@ -16,14 +16,14 @@ export const Header = () => {
         <div className="hidden md:block space-x-8">
           <Link
             scroll={false}
-            className="text-white hover:text-secondary transition-all duration-300 ease-in-out"
+            className="text-gray-light hover:text-secondary transition-all duration-300 ease-in-out"
             href="/#about"
           >
             About
           </Link>
           <Link
             scroll={false}
-            className="text-white hover:text-secondary transition-all duration-300 ease-in-out"
+            className="text-gray-light hover:text-secondary transition-all duration-300 ease-in-out"
             href="/#tech"
           >
             Technologies

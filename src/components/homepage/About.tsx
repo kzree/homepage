@@ -5,7 +5,7 @@ export const About = () => {
 
   return (
     <section className="container mx-auto py-16" id="about">
-      <h2 className="text-3xl font-bold text-black mb-6 border-b border-secondary pb-2 inline-block">
+      <h2 className="text-3xl font-bold text-gray-light mb-6 border-b border-secondary pb-2 inline-block">
         {title}
       </h2>
       {description.map((item, idx) => (

@@ -5,13 +5,13 @@ export const OtherSkills = () => {
 
   return (
     <section className="container mx-auto py-16" id="other-tech">
-      <h2 className="text-3xl font-bold text-black mb-6 border-b border-secondary pb-2 inline-block">
+      <h2 className="text-3xl font-bold mb-6 border-b border-secondary pb-2 inline-block">
         {title}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {columns.map(({ title, items }, idx) => (
           <div
-            className="rounded-xl shadow-xl hover:shadow-secondary/20 duration-300 ease-in-out p-5 bg-white"
+            className="rounded-xl shadow-xl duration-300 ease-in-out p-5 bg-gray-dark"
             key={`tech-${idx}`}
           >
             <h3 className="text-xl font-bold mb-2 border-b border-secondary inline-block">
