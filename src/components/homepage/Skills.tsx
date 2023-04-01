@@ -9,9 +9,7 @@ export const Skills = () => {
       </h2>
       {skills.map(({ description, title, icon: Icon }, idx) => (
         <div className="last:mb-0 mb-5 rounded-xl shadow-xl p-5 bg-white" key={`skill-${idx}`}>
-          <div className="flex items-center gap-2 text-primary mb-2">
-            <h3 className="text-xl font-bold">{title}</h3>
-          </div>
+          <h3 className="text-xl font-bold mb-2 border-b border-secondary inline-block">{title}</h3>
           <p>{description}</p>
         </div>
       ))}

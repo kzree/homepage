@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import { Footer, Header } from '@/components/layout';
-import { About, Hero, Skills } from '@/components/homepage';
+import { About, Hero, OtherSkills, Skills } from '@/components/homepage';
 import { PageHead } from '@/components';
 import { seo } from '@/data/homepage';
 
@@ -16,6 +16,7 @@ export default function Home() {
           <Hero />
           <About />
           <Skills />
+          <OtherSkills />
         </main>
         <Footer />
       </div>

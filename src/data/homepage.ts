@@ -42,7 +42,25 @@ export const majorSkills = {
       icon: IconBrandTailwind,
       title: 'TailwindCSS',
       description:
-        'I used to write all of my CSS using fancy tools like SCSS. But nowadays i prefer the speed of tailwind. Before configuring took a lot of time for new projects but thanks to tailwind this process has sped up a lot.',
+        'I used to write all of my CSS using fancy tools like SCSS. But nowadays I prefer the speed of tailwind. Before configuring took a lot of time for new projects but thanks to tailwind this process has sped up a lot.',
+    },
+  ],
+};
+
+export const otherSkills = {
+  title: 'Other technologies I know and use',
+  columns: [
+    {
+      title: 'Frontend',
+      items: ['CSS', 'SCSS', 'Angular 2', 'Svelte'],
+    },
+    {
+      title: 'Backend',
+      items: ['Java', 'Python', 'MySQL', 'MongoDB'],
+    },
+    {
+      title: 'Other',
+      items: ['Docker', 'AWS', 'Digital Ocean', 'Ansible', 'Gitlab CI', 'BB pipelines'],
     },
   ],
 };
