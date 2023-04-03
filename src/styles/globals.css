@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-    --color-primary: 14 17 17;
-    --color-secondary: 186 221 118;
-    --color-purple: 61 21 95;
-    --color-black: var(--color-primary);
-    --color-white: 255 255 255;
-    --color-gray-light: 200 200 200;
-    --color-gray: 27 30 31;
-    --color-gray-dark: 24 26 27;
+  --color-primary: 14 17 17;
+  --color-secondary: 186 221 118;
+  --color-purple: 61 21 95;
+  --color-black: var(--color-primary);
+  --color-white: 255 255 255;
+  --color-gray-light: 215 210 203;
+  --color-gray: 27 30 31;
+  --color-gray-dark: 24 26 27;
 }
 
 @layer base {
-    html {
-        scroll-behavior: smooth;
-    }
+  html {
+    scroll-behavior: smooth;
+  }
 }
